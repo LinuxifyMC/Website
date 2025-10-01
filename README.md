@@ -1,2 +1,2 @@
 # LinuxifyMC Website
-This is the LinuxifyMC website.
+This is the LinuxifyMC website, built with PHP and JS.

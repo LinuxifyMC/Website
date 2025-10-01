@@ -16,7 +16,7 @@
             ?>
             <h1>Welcome to this Website 🔔🔔🔔🔔</h1>
             <p>This is the VERY official website of LinuxifyMC (check the website linked to LinuxifyMC on github!)</p>
-            <p>This website is still not finished. If it will be finished, it will be open-sourced.</p>
+            <p>This website has been open-sourced! View the source code at <a href="https://github.com/LinuxifyMC/Website">this website</a>.</p>
         </div>
         <script src="./js/main.js"></script>
     </body>
