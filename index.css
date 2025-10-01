@@ -1,0 +1,108 @@
+* {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(102deg, rgb(23, 23, 24) 0%, rgb(21, 22, 22) 50%, rgb(15, 15, 15) 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar {
+    position: absolute;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    max-width: 100%;
+    background: linear-gradient(102deg, rgb(23,23,24) 0%, rgb(21,22,22) 50%, rgb(15,15,15) 100%);
+    color: white;
+    padding: 8px 12px;
+    text-align: left;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.container {
+    position: relative;
+    width: 95vw;
+    max-width: 100%;
+    max-height: calc(95vh - 40px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 70px 20px 20px 20px;
+    background-color: #0e0e0f;
+    border-radius: 5px;
+    color: white;
+    box-sizing: border-box;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+    word-wrap: break-word;
+    hyphens: auto;
+    white-space: normal;
+}
+
+.container img,
+.container video,
+.container iframe,
+.container table {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+
+.sociallogo {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#maintxt_topbar {
+    display: inline-block;
+    width: auto;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+#about_topbar {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(255,255,255,0.03);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0;
+    width: auto;
+    vertical-align: middle;
+    box-sizing: border-box;
+    transition: background-color 150ms ease, opacity 150ms ease;
+}
+
+#about_topbar:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.2);
+}
